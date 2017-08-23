@@ -1,0 +1,159 @@
+@charset 'UTF-8';
+body,p,h1,h2,h3,h4,h5,ul {
+	padding: 0;
+	margin: 0;
+}
+ul {
+	list-style: none;
+}
+body {
+	color: #F2E8E8;
+	font-size: 16px;
+  background: url('../images/bg1.png');
+ }
+.head {
+	background-color: #666;
+}
+.head ul {
+	border-width: 2px;
+	border-color: #444;
+}
+.nav-tabs li {
+	margin-bottom: -2px;
+}
+#nav .active a {
+	background-color: #555;
+	color: #eee;
+	border-color: #000;
+}
+#nav li a:hover{
+	background-color: #aaa;
+}
+.conter {
+	margin: 0 auto;
+}
+#ren {
+	width: 100px;
+	margin: 70px auto auto;
+	float: none;
+}
+.title {
+	font-weight: bold;
+	font-family: "微软雅黑";
+	padding: 20px 0 30px 0;
+}
+.my-data ul {
+	padding-left: 80px;
+}
+.my-data ul li {
+	line-height: 30px;
+	margin-left: 100px;
+}
+.my-data .my-data-son {
+	margin-left: -60px;
+}
+.my-evaluate {
+	padding: 20px 0 0 194px;
+}
+#carousel-example-generic {
+width: 90%;
+margin:28px  auto auto;
+}
+#carousel-example-generic .imgs img {
+width: 100%;
+}
+#box {
+	padding: 40px 30px 0;
+}
+#box h4 {
+	font-weight: bold;
+	font-size: 22px;
+}
+#box p {
+	line-height: 30px;
+	text-indent: 2em;
+}
+#box p span {
+	font-size: 18px;
+	font-weight: bold;
+}
+#box p a:hover {
+	color: #294EF6;
+}
+@media only screen and (max-width: 479px) {
+	.my-evaluate {
+		width: 350px;
+		padding-left: 35px;
+	}
+	.conter {
+		width: 100%;
+	}
+	.my-data ul {
+		padding-left: 10px;
+	}
+	.my-data ul li {
+		margin-left: 10px;
+	}
+	.my-data .my-data-son {
+		margin-left: 0;
+	}
+	#carousel-example-generic .imgs img {
+		height: 150px;
+	}
+}
+@media screen and (min-width: 479px) and (max-width:768px) {
+	.conter {
+		width: 100%;
+	}
+	.my-data ul {
+		padding-left: 10px;
+	}
+	.my-data ul li {
+		margin-left: 10px;
+	}
+	.my-data .my-data-son {
+		margin-left: 0;
+	}
+	.my-evaluate {
+		padding-left: 35px;
+	}
+	#carousel-example-generic .imgs img {
+		height: 200px;
+	}
+}
+@media screen and (min-width:769px) and (max-width:992px) {
+	.conter {
+		width: 800px;
+	}
+	.my-data ul {
+		padding-left: 10px;
+	}
+	.my-data ul li {
+		margin-left: 10px;
+	}
+	.my-data .my-data-son {
+		margin-left: 0;
+	}
+	.my-evaluate {
+		padding-left: 35px;
+	}
+	#carousel-example-generic .imgs img {
+		height: 200px;
+	}
+}
+@media screen and (min-width:993px) and (max-width:1200px) {
+	.conter {
+		width: 1000px;
+	}
+	#carousel-example-generic .imgs img {
+		height: 300px;
+	}
+}
+@media screen and (min-width:1201px) {
+	.conter {
+		width: 1000px;
+	}
+	#carousel-example-generic .imgs img {
+		height: 400px;
+	}
+}
